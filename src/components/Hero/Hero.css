@@ -1,0 +1,45 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.5),rgba(8,0,58,0.5)), url('https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+}
+.hero-text h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.hero-text p{
+    max-width: 700;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+/* media query */
+
+@media (max-width: 850px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30pxz;
+    }
+}

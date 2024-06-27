@@ -1,0 +1,3 @@
+const HeroImage = ["https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1","https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1","https://cdn9.dissolve.com/p/D430_50_073/D430_50_073_1200.jpg","https://studyinthestates.dhs.gov/sites/default/files/assets/images/content/photodune-2721464-group-of-college-students-m.jpg","https://news.utexas.edu/wp-content/uploads/2018/02/college_class_830_0.jpg"]
+
+export default HeroImage
