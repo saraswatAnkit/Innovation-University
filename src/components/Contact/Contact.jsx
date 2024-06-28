@@ -54,6 +54,7 @@ function Contact() {
           <textarea name="message" rows={6} placeholder='Enter your message' required></textarea>
           <button type='submit' className='btn dark-btn'>Submit now <img src={whit_arrow} alt="" /></button>
         </form>
+        <span>{result}</span>
       </div>
     </div>
   )
